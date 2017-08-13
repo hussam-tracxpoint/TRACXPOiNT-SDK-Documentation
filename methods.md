@@ -14,7 +14,7 @@ Init the SDK using Swift.
 TracxSDK.init("your app id here")
 ```
 
-{% sample lang="Java" %}
+{% sample lang="java" %}
 Init the SDK using Java.
 
 ```swift
