@@ -18,7 +18,7 @@ TracxSDK.shared.init("your app id here")
 Init the SDK using Java.
 
 ```java
-TracxSDKshared..init("your app id here");
+TracxSDK.shared.init("your app id here");
 ```
 
 
