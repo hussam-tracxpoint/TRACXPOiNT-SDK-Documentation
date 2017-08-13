@@ -11,14 +11,14 @@ Initializes the DSK
 Init the SDK using Swift.
 
 ```swift
-TracxSDK.init("your app id here")
+TracxSDK.shared.init("your app id here")
 ```
 
 {% sample lang="java" %}
 Init the SDK using Java.
 
 ```java
-TracxSDK.init("your app id here");
+TracxSDKshared..init("your app id here");
 ```
 
 
