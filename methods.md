@@ -5,7 +5,7 @@ Methods allow you to smoothly display code examples in different languages.
 {% method %}
 ## init
 
-Initializes the DSK
+Initializes the SDK with your provided unique app id.
 
 {% sample lang="swift" %}
 Init the SDK using Swift.
@@ -37,18 +37,27 @@ $ My first method
 Logs in with given TracxUser.
 
 
-
-```swift
-TracxUser has the following properties:
-firstName : String
-lastName
-birthdate
-clubID
-personalID
-email
-mobilePhoneNumber
-homePhoneNumber
-address
+**TracxUser:**
+```
+firstName (string)
+lastName (string)
+birthdate (string) ISO 8601 date format YYYY-MM-DD
+clubID (string)   
+personalID (string)
+email (string)
+mobilePhoneNumber (string)
+homePhoneNumber (string)
+address (TracxAddress)
+```
+**TracxAddress:**
+```
+country (string)
+city (string)
+street (string)
+streetNumber (string)
+appartmentNumber (string)
+mailbox (string)
+zipCode (string)
 ```
 
 
