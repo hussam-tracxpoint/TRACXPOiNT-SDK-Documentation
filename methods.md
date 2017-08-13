@@ -38,7 +38,7 @@ Logs in with given TracxUser.
 
 
 
-```c
+```swift
 TracxUser has the following properties:
 firstName : String
 lastName
