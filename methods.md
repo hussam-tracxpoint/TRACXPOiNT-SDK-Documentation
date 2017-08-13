@@ -3,23 +3,25 @@
 Methods allow you to smoothly display code examples in different languages.
 
 {% method %}
-## My first method
+## init
 
-My first method exposes how to print a message in JavaScript and Go.
+Initializes the DSK
 
-{% sample lang="js" %}
-Here is how to print a message to `stdout` using JavaScript.
+{% sample lang="swift" %}
+Init the SDK using Swift.
 
-```js
-console.log('My first method');
+```swift
+TracxSDK.init("your app id here")
 ```
 
-{% sample lang="go" %}
-Here is how to print a message to `stdout` using Go.
+{% sample lang="Java" %}
+Init the SDK using Java.
 
-```go
-fmt.Println("My first method")
+```swift
+TracxSDK.init("your app id here")
 ```
+
+
 
 {% common %}
 Whatever language you are using, the result will be the same.
