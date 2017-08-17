@@ -11,14 +11,14 @@ Initializes the SDK with your provided unique app id.
 Init the SDK using Swift.
 
 ```swift
-TracxSDK.sharedInstance.initSdk("your app id here")
+TracxpointSDK.sharedInstance.initSdk("your app id here")
 ```
 
 {% sample lang="java" %}
 Init the SDK using Java.
 
 ```java
-TracxSDK.sharedInstance.initSdk("your app id here");
+TracxpointSDK.sharedInstance.initSdk("your app id here");
 ```
 
 
@@ -76,7 +76,7 @@ user.mobilePhoneNumber = "+9725412345678"
 user.homePhoneNumber = "0412345678"
 user.address = TracxAddress(country: "Israel", city: "Tel aviv", street: "Allenby", streetNumber: 20, appartmentNumber: 1, mailbox: 1, zipCode: 1234567)
 
-TracxSDK.sharedInstance.login(user)
+TracxpointSDK.sharedInstance.login(user)
 ```
 
 {% sample lang="java" %}
@@ -93,7 +93,7 @@ user.mobilePhoneNumber = "+9725412345678";
 user.homePhoneNumber = "0412345678";
 user.address = new TracxAddress("Israel", "Tel aviv", "Allenby", 20, 1, 1, 1234567);
 
-TracxSDK.sharedInstance.presentTracxpointActivity();
+TracxpointSDK.sharedInstance.presentTracxpointActivity();
 ```
 
 
@@ -116,14 +116,14 @@ Launches Tracxpoint QR code reader take or return cart from the terminal
 Presents the Tracxpoint ViewController
 
 ```swift
-TracxSDK.sharedInstance.presentTracxpointViewController()
+TracxpointSDK.sharedInstance.presentTracxpointViewController()
 ```
 
 {% sample lang="java" %}
 Opens the Tracxpoint Activity
 
 ```java
-TracxSDK.sharedInstance.presentTracxpointActivity();
+TracxpointSDK.sharedInstance.presentTracxpointActivity();
 ```
 
 
